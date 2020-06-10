@@ -1,0 +1,246 @@
+page-tasksdetails .scroll-content {
+  margin-top: 0px !important;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#page-tasksdetails {
+  background-image: linear-gradient(210deg, #1a1e28, #2d3c42);
+}
+
+
+/* header styles  */
+
+page-tasksdetails .header-md::after {
+  content: none !important;
+}
+
+page-tasksdetails ion-navbar .toolbar-background {
+  background: transparent;
+  border: none !important;
+}
+
+page-tasksdetails ion-navbar .toolbar-content {
+  text-align: center;
+}
+
+page-tasksdetails ion-navbar .toolbar-title {
+  color: white;
+  font-family: Lato;
+  letter-spacing: 0.08rem;
+  font-weight: 900;
+  font-size: 2rem;
+}
+page-tasksdetails .button-inner, page-tasksdetails ion-header ion-icon {
+    color: white !important;
+}
+
+page-tasksdetails .animate-img {
+    height: 30vh;
+}
+/* mobile css */
+#page-tasksdetails .content-radiance-details {
+    margin-top: 30vh;
+    border-radius: 6px;
+    box-shadow: 1px 2px 5px 2px #1d2327;
+    padding: 2rem;
+}
+#page-tasksdetails .content-radiance-details .details-content {
+    color: white;
+    text-align: left;
+    flex-direction: column;
+    font-family: Lato;
+    margin: 0;
+}
+#page-tasksdetails .content-radiance-details .details-content .sub-heading{
+    font-size: 1.3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#page-tasksdetails .content-radiance-details .details-content .heading{
+    color: #ececec;
+    margin-top: 0;
+    font-size: 2rem;
+}
+#page-tasksdetails .content-radiance-details .details-content .description {
+    font-size: 1.2rem;
+    margin: 0;
+}
+#page-tasksdetails  .places-container {
+    border-radius: 6px;
+    box-shadow: 1px 2px 5px 2px #1d2327;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 32vh;
+    overflow: hidden;
+    padding-bottom: 2vh;
+}
+#page-tasksdetails .places-container .heading{ 
+    padding: 1rem;
+    margin: 0;
+    font-size: 1.5rem;
+}
+#page-tasksdetails  .places-container ion-list {
+    margin-bottom: 1rem;
+    height: 20vh;
+    overflow: scroll;
+}
+#page-tasksdetails  .places-container ion-card {
+    text-align: left;
+    margin: 0;
+    width: 100%;
+    background: #1f262f99;
+    box-shadow: none;
+    border-bottom: 1px solid #9E9E9E;
+}
+#page-tasksdetails  .places-container ion-card ion-card-header{ 
+    color: #ececec;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+#page-tasksdetails  .places-container ion-card ion-card-content{
+    padding: 1rem;
+    padding-top: 0;
+    font-size: 1.2rem;
+
+} 
+/* core platform css */
+
+.platform-core #page-tasksdetails .fixed-content {
+  display: none !important;
+}
+
+.platform-core #page-tasksdetails .scroll-content {
+  margin: 0 !important;
+  padding: 0 !important;
+    font-family: Lato;
+}
+
+.platform-core page-tasksdetails ion-navbar {
+  /* display: none !important; */
+}
+.platform-core page-tasksdetails .animate-img {
+    width: 30%;
+    top: 8rem;
+    position: absolute;
+    left: 3rem;
+    transition: all 0.5s ease-in-out 0s;
+    height: 40vh;
+    border-radius: 6px;
+}
+.platform-core #page-tasksdetails .content-radiance-details {
+    width: 60%;
+    margin-top: 8rem;
+    position: absolute;
+    right: 2rem;
+}
+.platform-core #page-tasksdetails .basic-info {
+        position: absolute;
+    top: 60vh;
+    left: 3rem;
+    width: 30%;
+    text-align: left;
+    height: 40%;
+    padding: 1rem;
+    color: white;
+}
+.platform-core #page-tasksdetails .basic-info .sub-heading{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.platform-core #page-tasksdetails .basic-info .heading{
+    font-size: 3rem;
+}
+.platform-core #page-tasksdetails .basic-info button {
+    position: absolute;
+    bottom: 3vh;
+    background: #3c4856;
+    width: 50%;
+    left: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: auto;
+    font-weight: 400;
+}
+.platform-core #page-tasksdetails .about-container {
+    box-shadow: 1px 2px 5px 2px #1d2327;
+    padding: 2rem;
+    border-radius: 6px;
+    color: white;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+}
+.platform-core #page-tasksdetails .places-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 55vh;
+}
+.platform-core #page-tasksdetails .places-container .heading {
+    width: 100%;
+    text-align: left;
+    FONT-SIZE: 2rem;
+    padding: 1.5rem;
+}
+.platform-core #page-tasksdetails .places-container ion-list {
+    width: 100%;
+    height: 50vh;
+}
+.platform-core #page-tasksdetails .content-radiance-details {
+    box-shadow: none;
+}
+.platform-core page-tasksdetails .animate-img {
+    height: 40vh;
+    border-radius: 6px;
+}
+/* media queries */
+
+/* iphone 5, 5s, 5c, galaxy phones < 5inch */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    #page-tasksdetails .content-radiance-details .details-content .sub-heading{
+        font-size: 1.2rem;
+    }
+    #page-tasksdetails .content-radiance-details .details-content .heading{
+        font-size: 1.5rem;
+    }
+    #page-tasksdetails .content-radiance-details .details-content .description {
+        max-height: 23vh;
+        overflow: hidden;
+    }
+    #page-tasksdetails .places-container{
+        height: 24vh;
+    }
+    #page-tasksdetails .places-container ion-list {
+        height: 16vh;
+    }
+    page-tasksdetails ion-navbar .toolbar-title {
+        font-size: 1.5rem !important;
+    }
+    page-tasksdetails .button-inner {
+        font-size: 1.2rem;
+    }
+    page-tasksdetails ion-header ion-icon {
+        font-size: 2rem !important;
+        margin-right: -0.5rem !important;
+    }
+}
+
+/* iphone 6,7,8  */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    #page-tasksdetails .places-container {
+        height: 36vh;
+    }
+    #page-tasksdetails .places-container ion-list {
+        height: 28vh;
+    }
+}

@@ -1,0 +1,35 @@
+#page-home {
+  --theme-primary-color: #ffffff;
+  background:  linear-gradient(0deg, #B2EBF2 0%, #d9e7ff 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Lato' !important;
+}
+
+.toolbar-background {
+  background: rgb(9,9,121) !important;
+  background: linear-gradient(10deg, rgba(9,9,121,1) 1%, rgba(0,212,255,1) 100%) !important;
+}
+
+#page-home .hero{
+  margin-top: 6em;
+  text-align: left;
+  width:100%;
+  padding-left: 2em;
+}
+
+#page-home .content{
+  padding:2em 1em;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#page-home .content .tasks-summary{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding:1em;
+}

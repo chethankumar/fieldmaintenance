@@ -1,0 +1,129 @@
+.scroll-content {
+  margin-top: 0px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#page-tasks {
+  background-image: linear-gradient(210deg, #1a1e28, #2d3c42);
+}
+
+
+/* header styles  */
+
+page-tasks .header-md::after {
+  content: none !important;
+}
+
+page-tasks ion-navbar .toolbar-background {
+  background: transparent;
+  border: none !important;
+}
+
+page-tasks ion-navbar .toolbar-content {
+  text-align: center;
+}
+
+page-tasks ion-navbar .toolbar-title {
+  color: #dcdcdc;
+  font-family: Lato;
+  letter-spacing: 0.08rem;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+page-tasks .bottom-overlay {
+    position: absolute;
+    bottom: 0;
+    height: 10vh;
+    width: 100%;
+    left: 0;
+    background: linear-gradient(180deg, transparent, black);
+    opacity: 0.6;
+    z-index: 2;
+}
+/* page styles - mobile */
+#page-tasks .content-radiance ion-card {
+    box-shadow: 1px 2px 4px 2px #171a21;
+    max-height: 23vh;
+    border-radius: 6px !important;
+}
+#page-tasks .content-radiance ion-card:nth-child(2n-1) {
+    background:#3c4956;
+} 
+#page-tasks .content-radiance ion-card:nth-child(2n) {
+    background: #322f3e;
+} 
+#page-tasks .content-radiance ion-card:nth-child(3n) {
+    background: #2c364d;
+}
+#page-tasks .content-radiance ion-card ion-card-content {
+    padding: 0;
+    color: white;
+    display: flex;
+}
+#page-tasks .content-radiance ion-card ion-card-content .card-image-container {
+    min-width: 40%;
+    width: 40%;
+    height: 23vh;
+}
+#page-tasks .content-radiance ion-card ion-card-content .card-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#page-tasks .content-radiance ion-card ion-card-content .content {
+    width: 65%;
+    padding: 1rem;
+    font-family: Lato;
+    text-align: left;
+}
+#page-tasks .content-radiance ion-card ion-card-content .content h4{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ececec;
+}
+#page-tasks .content-radiance ion-card ion-card-content .content p{
+    color: #dcdcdc;
+    display: -webkit-box;
+    max-width: 100%;
+    height: 15vh;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 1 !important;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* core platform css */
+
+.platform-core #page-tasks .fixed-content {
+  display: none !important;
+}
+
+.platform-core #page-tasks .scroll-content {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.platform-core page-tasks ion-navbar {
+  /* display: none !important; */
+}
+
+.platform-core #page-tasks .content-radiance {
+    margin-top: 10rem;
+}
+
+.platform-core #page-tasks .content-radiance ion-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.platform-core #page-tasks .content-radiance ion-card {
+    flex: 1 0 30%;
+    margin: 10px !important;
+}
